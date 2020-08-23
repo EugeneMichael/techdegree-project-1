@@ -91,13 +91,15 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: auto;
+  max-width: 1000px;
+  min-width: 600px;
+  min-height: 400px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-  float: left;
+  float: center;
 }
 .card:hover {
   border-color: #287A2A;
@@ -184,8 +186,15 @@ a.social:hover {
 .card .date {
   margin-top: auto;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
+}
+.card .company {
+  margin-top: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: Normal;
 }
 
 /* Styles for larger screens */

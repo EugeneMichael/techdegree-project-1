@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #287A2A;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -91,8 +91,8 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 1000px;
-  min-width: 600px;
+  min-width: 500px;
+  max-width: 600px;
   min-height: 400px;
   text-align: left;
   background: #fff;
@@ -170,11 +170,10 @@ a.social:hover {
   clear: both;
 }
 /* Styles for experience cards*/
-.card .logo-image {
+.card .hobb-image {
   margin: 5%;
-  width: 150px;
+  width: 130px;
   height: auto;
-  display: block;
 }
 .card .title {
   margin-top: 5%;
@@ -204,6 +203,7 @@ a.social:hover {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
+      width: auto;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;

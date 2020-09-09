@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid #287A2A;
+  border: 3px solid #0067b0;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -86,13 +86,12 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  min-width: 500px;
-  max-width: 600px;
+  max-width: 500px;
   min-height: 400px;
   text-align: left;
   background: #fff;
@@ -203,7 +202,6 @@ a.social:hover {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      width: auto;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;

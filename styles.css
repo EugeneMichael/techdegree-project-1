@@ -98,7 +98,6 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
-  float: center;
 }
 .section:hover {
   border-color: #0067b0;
